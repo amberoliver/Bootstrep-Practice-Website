@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel .carousel-item {
+    height: 550px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    min-height: 550px;
+}
+
+.information {
+    background-color: rgb(204, 230, 239);
+    border-top: solid rgb(155, 148, 148);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#services-list {
+    list-style-type: circle;
+    padding-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#services-list li {
+    padding: 10px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.par-information {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.par-information p {
+    padding-top: 20px;
+}
+
+#newsletter {
+    border-top: solid rgb(155, 148, 148);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+input {
+    border-bottom: solid black;
+}
+
+#privacy {
+    padding-bottom: 15px;
+}
+
+#footer {
+    background-color: darkgrey;
+    padding: 30px;
+}
+
+.contact div {
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
